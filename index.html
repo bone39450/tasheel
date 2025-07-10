@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تمويل تسهيل</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #00274f;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+.call-buton .cc-calto-action-ripple {
+	z-index: 99999;
+	position: fixed;
+	right: 1rem;
+	bottom: 8rem;
+	background: #ec8b00;
+	width: 4rem;
+	height: 4rem;
+	padding: 1rem;
+	border-radius: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #ffffff;
+	-webkit-animation: cc-calto-action-ripple 0.6s linear infinite;
+	animation: cc-calto-action-ripple 0.6s linear infinite;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-items: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none; }
+	.call-buton .cc-calto-action-ripple i {
+	  -webkit-transition: 0.3s ease;
+	  transition: 0.3s ease;
+	  font-size: 2.2rem; }
+	.call-buton .cc-calto-action-ripple:hover i {
+	  -webkit-transform: rotate(135deg);
+	  transform: rotate(135deg); }
+  
+  @-webkit-keyframes cc-calto-action-ripple {
+	0% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+	100% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } }
+  
+  @keyframes cc-calto-action-ripple {
+	0% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 0 rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2); }
+	100% {
+	  -webkit-box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0);
+	  box-shadow: 0 4px 10px rgba(236, 139, 0, 0.2), 0 0 0 5px rgba(236, 139, 0, 0.2), 0 0 0 10px rgba(236, 139, 0, 0.2), 0 0 0 20px rgba(236, 139, 0, 0); } }
+
+	span.num{
+		position: absolute;
+    color: #ec8b00;
+    left: -30%;
+    bottom: -50%;
+	}
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffc107;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://www.tasheelfinance.com/assets/home-bg.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #00274f;
+      text-align: center;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #003366;
+    }
+    .card p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .icon-box {
+      font-size: 3rem;
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #00274f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+    .social-icons a {
+      color: white;
+      margin: 0 0.5rem;
+      font-size: 1.4rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>تسهيل للتمويل</h1>
+    <nav>
+      <a href="#services">الخدمات</a>
+      <a href="#about">من نحن</a>
+      <a href="#contact">اتصل بنا</a>
+      <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:54 856 0906"><i class="fa fa-phone"></i><span class="num">+966548560906</span>
+</a>
+</section>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>تمويل متوافق مع الشريعة بسهولة</h1>
+    <p>قدّم طلبك خلال دقائق – بدون تحويل راتب أو كفيل</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>خدماتنا</h2>
+    <div class="card">
+      <div class="icon-box"><i class="fas fa-hand-holding-usd"></i></div>
+      <h2>التمويل الشخصي</h2>
+      <p>حتى 250,000 ريال سعودي. خيارات سداد مرنة من 3 إلى 60 شهراً. موافقة سريعة دون كفيل.</p>
+    </div>
+    <div class="card">
+      <div class="icon-box"><i class="fas fa-shopping-cart"></i></div>
+      <h2>برنامج المبيعات بالتقسيط</h2>
+      <p>اشترِ الآن وادفع لاحقًا. تمويل يصل حتى 60,000 ريال بدون دفعة أولى أو تحويل راتب.</p>
+    </div>
+    <div class="card">
+      <div class="icon-box"><i class="fas fa-credit-card"></i></div>
+      <h2>بطاقة تسهيل ماستركارد</h2>
+      <p>استخدام محلي ودولي مع استرداد نقدي يصل حتى 2.25%. بطاقة آمنة ومتوافقة مع الشريعة.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>من نحن</h2>
+    <div class="card">
+      <p>تسهيل هي شركة تمويل مرخصة من البنك المركزي السعودي. نقدم حلول تمويلية مرنة ومتوافقة مع الشريعة الإسلامية لعملائنا في كافة أنحاء المملكة العربية السعودية.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>اتصل بنا</h2>
+    <div class="card">
+      <p><strong>البريد الإلكتروني:</strong> support@tasheelfinance.com<br>
+         <strong>الهاتف:</strong> +966548560906<br>
+         <strong>العنوان:</strong> المملكة العربية السعودية</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 تسهيل للتمويل. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
